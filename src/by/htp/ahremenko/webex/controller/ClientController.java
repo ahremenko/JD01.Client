@@ -42,7 +42,7 @@ public class ClientController {
 				System.out.println("[Client] gets NULL answer.");
 			}
 			
-			request  = "add 50 23";
+			request  = "minus 50 23";
 			dataOut.writeUTF(request); 
 			dataOut.flush();  // push all from buffer 
 			System.out.println("[Client] sent request 2. It is waiting for response...)");
